@@ -396,7 +396,7 @@ remove_realm() {
 # 显示菜单
 show_menu() {
     echo "=============================="
-    echo "      自用 Realm 端口转发脚本"
+    echo "     自用 Realm 端口转发脚本"
     echo "=============================="
     echo "1) 安装 realm"
     echo "2) 启动 realm 服务"
