@@ -19,7 +19,7 @@ echo_error() {
 }
 
 # 定义变量
-REALM_URL="https://raw.githubusercontent.com/1keji/RealmSetup/refs/heads/main/realm.tar.gz"
+REALM_URL="https://github.com/lswmxl/Realm-Port/raw/refs/heads/master/realm.tar.gz"
 REALM_TAR="/root/realm.tar.gz"
 REALM_DIR="/root"
 REALM_EXEC="$REALM_DIR/realm"
@@ -396,7 +396,7 @@ remove_realm() {
 # 显示菜单
 show_menu() {
     echo "=============================="
-    echo "        Realm 管理脚本"
+    echo "      自用 Realm 端口转发脚本"
     echo "=============================="
     echo "1) 安装 realm"
     echo "2) 启动 realm 服务"
